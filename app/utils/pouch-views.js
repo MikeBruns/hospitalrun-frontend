@@ -495,6 +495,12 @@ let designDocs = [{
     'emit(doc.data.visit);'
   ),
   version: 1
+}, {
+  name: 'following_by_user',
+  function: generateView('following',
+    'emit([doc.data.user, following, doc._id]);'
+  ),
+  version: 1
 }];
 
 export default function(db, runningTest, testDumpFile) {
