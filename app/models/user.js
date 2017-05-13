@@ -11,7 +11,7 @@ let User = DS.Model.extend(EmberValidations, {
   deleted: DS.attr('boolean'),
   displayName: DS.attr('string'),
   email: DS.attr('string'),
-  followers: DS.attr(),
+  following: DS.attr(),
   iterations: DS.attr(),
   name: DS.attr('string'),
   password: DS.attr('string'),
