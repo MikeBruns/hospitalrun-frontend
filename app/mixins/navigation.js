@@ -362,7 +362,28 @@ export default Ember.Mixin.create({
           capability: 'define_user_roles'
         }
       ]
+    },
+    {
+      title: 'Feed',
+      iconClass: 'octicon-organization',
+      route: 'feed.index',
+      capability: 'feed',
+      subnav: [
+        {
+          title: 'My Feed',
+          iconClass: 'octicon-chevron-right',
+          route: 'feed.index',
+          capability: 'feed'
+        },
+        {
+          title: 'Following',
+          iconClass: 'octicon-chevron-right',
+          route: 'feed.following',
+          capability: 'feed'
+        }
+      ]
     }
+
   ],
 
   // Navigation items get mapped localizations
