@@ -514,6 +514,10 @@ export default Ember.Mixin.create({
       'Quality',
       'System Administrator'
     ],
+    feed: [
+      'User Administrator',
+      'System Administrator'
+    ],
     add_incident: [
       'Hospital Staff',
       'User Administrator',
