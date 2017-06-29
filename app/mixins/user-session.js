@@ -55,6 +55,11 @@ export default Ember.Mixin.create({
       'Patient Administration',
       'System Administrator'
     ],
+    add_follower: [ 
+      //Add roles that can follow entities
+      'Doctor',
+      'System Administrator'
+    ],
     add_medication: [
       'Data Entry',
       'Doctor',
@@ -261,6 +266,11 @@ export default Ember.Mixin.create({
       'Hospital Administrator',
       'Medical Records Officer',
       'Patient Administration',
+      'System Administrator'
+    ],
+    delete_follower: [ 
+      //Add roles that can delete followers
+      'Doctor',
       'System Administrator'
     ],
     delete_inventory_item: [

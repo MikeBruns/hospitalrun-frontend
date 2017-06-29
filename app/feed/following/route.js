@@ -1,4 +1,4 @@
-//Modeled off of /app/labs/index/
+// Modeled off of /app/labs/index/
 import AbstractIndexRoute from 'hospitalrun/routes/abstract-index-route';
 import Ember from 'ember';
 import { translationMacro as t } from 'ember-i18n';
