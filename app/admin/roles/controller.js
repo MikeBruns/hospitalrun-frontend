@@ -100,6 +100,12 @@ export default AbstractEditController.extend(UserRoles, UserSession, {
       'deleteImaging'
     ]
   }, {
+    name: 'feed',
+    capabilities: [
+      'addFollower',
+      'deleteFollower',
+    ]
+  }, {
     name: 'incident',
     capabilities: [
       'incident',
