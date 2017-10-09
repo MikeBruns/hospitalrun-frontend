@@ -231,20 +231,20 @@ export default Ember.Mixin.create({
     {
       title: 'Feed',
       iconClass: 'octicon-organization',
-      // route: 'feed',
+      route: 'feed',
       capability: 'feed',
       subnav: [
         {
           title: 'My Feed',
           iconClass: 'octicon-chevron-right',
           // route: 'feed.index',
-          capability: 'feed'
+          capability: 'my_feed'
         },
         {
           title: 'Following',
           iconClass: 'octicon-chevron-right',
           // route: 'feed.following',
-          capability: 'feed'
+          capability: 'show_following'
         }
       ]
     },
