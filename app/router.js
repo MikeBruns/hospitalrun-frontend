@@ -76,7 +76,9 @@ Router.map(function() {
     this.route('edit', { path: '/edit/:lab_id' });
   });
 
-  this.route('feed');
+  this.route('feed', function() {
+    this.route('following');
+  });
 
   this.route('login');
 

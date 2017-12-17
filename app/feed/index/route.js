@@ -3,8 +3,8 @@ import { translationMacro as t } from 'ember-i18n';
 
 export default AbstractIndexRoute.extend(UserSession, {
   modelName: 'feed',
-  pageTitle: t('feed.feedTitle'),
-  searchStatus: 'Feed',
+  pageTitle: 'Feed Page Title' //t('feed.feedTitle'),
+//  searchStatus: 'Feed search status',
 
   // newButtonAction: computed(function() {
   //   if (this.currentUserCan('add_patient')) {

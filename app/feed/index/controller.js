@@ -2,5 +2,5 @@ import AbstractPagedController from 'hospitalrun/controllers/abstract-paged-cont
 import UserSession from 'hospitalrun/mixins/user-session';
 export default AbstractPagedController.extend(PatientVisits, {
   startKey: [],
-  addPermission: 'add_follower'
+//  addPermission: 'add_follower'
 });
